@@ -1,0 +1,17 @@
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/bin/Debug/net9.0/OrderManagementService.Domain.Abstractions.deps.json
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/bin/Debug/net9.0/OrderManagementService.Domain.Abstractions.dll
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/bin/Debug/net9.0/OrderManagementService.Domain.Abstractions.pdb
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/bin/Debug/net9.0/OrderManagementService.Domain.dll
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/bin/Debug/net9.0/OrderManagementService.Domain.Models.dll
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/bin/Debug/net9.0/OrderManagementService.Domain.pdb
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/bin/Debug/net9.0/OrderManagementService.Domain.Models.pdb
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/obj/Debug/net9.0/OrderManagementService.Domain.Abstractions.csproj.AssemblyReference.cache
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/obj/Debug/net9.0/OrderManagementService.Domain.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/obj/Debug/net9.0/OrderManagementService.Domain.Abstractions.AssemblyInfoInputs.cache
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/obj/Debug/net9.0/OrderManagementService.Domain.Abstractions.AssemblyInfo.cs
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/obj/Debug/net9.0/OrderManagementService.Domain.Abstractions.csproj.CoreCompileInputs.cache
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/obj/Debug/net9.0/OrderMan.19885580.Up2Date
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/obj/Debug/net9.0/OrderManagementService.Domain.Abstractions.dll
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/obj/Debug/net9.0/refint/OrderManagementService.Domain.Abstractions.dll
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/obj/Debug/net9.0/OrderManagementService.Domain.Abstractions.pdb
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/obj/Debug/net9.0/ref/OrderManagementService.Domain.Abstractions.dll

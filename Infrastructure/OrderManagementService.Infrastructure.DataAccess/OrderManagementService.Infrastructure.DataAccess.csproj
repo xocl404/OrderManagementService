@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\Application\OrderManagementService.Application.Abstractions\OrderManagementService.Application.Abstractions.csproj" />
+        <ProjectReference Include="..\..\Application\OrderManagementService.Application\OrderManagementService.Application.csproj" />
+        <ProjectReference Include="..\..\Domain\OrderManagementService.Domain.Abstractions\OrderManagementService.Domain.Abstractions.csproj" />
+        <ProjectReference Include="..\OrderManagementService.Infrastructure.Kafka\OrderManagementService.Infrastructure.Kafka.csproj" />
+
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FluentMigrator" Version="8.0.1" />
+        <PackageReference Include="FluentMigrator.Runner" Version="8.0.1" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.2" />
+        <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="10.0.2" />
+        <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="10.0.2" />
+        <PackageReference Include="Npgsql" Version="10.0.1" />
+    </ItemGroup>
+
+</Project>

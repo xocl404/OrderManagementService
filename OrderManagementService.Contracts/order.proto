@@ -1,0 +1,168 @@
+syntax = "proto3";
+
+package orders;
+
+import "google/protobuf/timestamp.proto";
+
+enum OrderState {
+  ORDER_STATE_UNSPECIFIED = 0;
+  ORDER_STATE_CREATED = 1;
+  ORDER_STATE_PROCESSING = 2;
+  ORDER_STATE_COMPLETED = 3;
+  ORDER_STATE_CANCELLED = 4;
+}
+
+enum OrderHistoryItemKind {
+  ORDER_HISTORY_ITEM_KIND_UNSPECIFIED = 0;
+  ORDER_HISTORY_ITEM_KIND_CREATED = 1;
+  ORDER_HISTORY_ITEM_KIND_ITEM_ADDED = 2;
+  ORDER_HISTORY_ITEM_KIND_ITEM_REMOVED = 3;
+  ORDER_HISTORY_ITEM_KIND_STATE_CHANGED = 4;
+}
+
+message Order {
+  int64 id = 1;
+  OrderState state = 2;
+  google.protobuf.Timestamp created_at = 3;
+  string created_by = 4;
+}
+
+message OrderItem {
+  int64 id = 1;
+  int64 order_id = 2;
+  int64 product_id = 3;
+  int32 quantity = 4;
+  bool deleted = 5;
+}
+
+message Product {
+  int64 id = 1;
+  string name = 2;
+  double price = 3;
+}
+
+message CreatedOrderHistoryPayload {
+  string created_by = 1;
+  google.protobuf.Timestamp created_at = 2;
+}
+
+message ItemAddedHistoryPayload {
+  int64 product_id = 1;
+  int32 quantity = 2;
+}
+
+message ItemRemovedHistoryPayload {
+  int64 product_id = 1;
+  int32 quantity = 2;
+}
+
+message StateChangedHistoryPayload {
+  string from = 1;
+  string to = 2;
+}
+
+message OrderHistoryPayload {
+  oneof payload {
+    CreatedOrderHistoryPayload created = 1;
+    ItemAddedHistoryPayload item_added = 2;
+    ItemRemovedHistoryPayload item_removed = 3;
+    StateChangedHistoryPayload state_changed = 4;
+  }
+}
+
+message OrderHistoryItem {
+  int64 id = 1;
+  int64 order_id = 2;
+  google.protobuf.Timestamp created_at = 3;
+  OrderHistoryItemKind kind = 4;
+  OrderHistoryPayload payload = 5;
+}
+
+message OrderFilter {
+  repeated int64 ids = 1;
+  OrderState state = 2;
+  string created_by = 3;
+  int32 page_size = 4;
+  string page_token = 5;
+}
+
+message OrderHistoryFilter {
+  repeated int64 order_ids = 1;
+  OrderHistoryItemKind kind = 2;
+  int32 page_size = 3;
+  string page_token = 4;
+}
+
+message PagedResultOrder {
+  repeated Order items = 1;
+  string next_page_token = 2;
+}
+
+message PagedResultOrderHistoryItem {
+  repeated OrderHistoryItem items = 1;
+  string next_page_token = 2;
+}
+
+message CreateOrderRequest {
+  string created_by = 1;
+}
+
+message CreateOrderResponse {
+  int64 order_id = 1;
+}
+
+message AddItemRequest {
+  int64 order_id = 1;
+  int64 product_id = 2;
+  int32 quantity = 3;
+}
+
+message AddItemResponse {
+}
+
+message RemoveItemRequest {
+  int64 order_item_id = 1;
+}
+
+message RemoveItemResponse {
+}
+
+message StartProcessingRequest {
+  int64 order_id = 1;
+}
+
+message StartProcessingResponse {
+}
+
+message CompleteRequest {
+  int64 order_id = 1;
+}
+
+message CompleteResponse {
+}
+
+message CancelRequest {
+  int64 order_id = 1;
+}
+
+message CancelResponse {
+}
+
+message GetHistoryRequest {
+  int64 order_id = 1;
+  OrderHistoryFilter filter = 2;
+}
+
+message GetHistoryResponse {
+  PagedResultOrderHistoryItem result = 1;
+}
+
+service OrdersService {
+  rpc CreateOrder(CreateOrderRequest) returns (CreateOrderResponse);
+  rpc AddItem(AddItemRequest) returns (AddItemResponse);
+  rpc RemoveItem(RemoveItemRequest) returns (RemoveItemResponse);
+  rpc StartProcessing(StartProcessingRequest) returns (StartProcessingResponse);
+  rpc Complete(CompleteRequest) returns (CompleteResponse);
+  rpc Cancel(CancelRequest) returns (CancelResponse);
+  rpc GetHistory(GetHistoryRequest) returns (GetHistoryResponse);
+}

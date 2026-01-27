@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <OutputType>Library</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\Domain\OrderManagementService.Domain\OrderManagementService.Domain.csproj" />
+        <ProjectReference Include="..\..\Domain\OrderManagementService.Domain.Models\OrderManagementService.Domain.Models.csproj" />
+        <ProjectReference Include="..\..\Domain\OrderManagementService.Domain.Abstractions\OrderManagementService.Domain.Abstractions.csproj" />
+        <ProjectReference Include="..\..\Infrastructure\OrderManagementService.Infrastructure.DataAccess\OrderManagementService.Infrastructure.DataAccess.csproj" />
+        <ProjectReference Include="..\..\OrderManagementService.Contracts\OrderManagementService.Contracts.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Grpc.AspNetCore" Version="2.76.0" />
+    </ItemGroup>
+
+</Project>

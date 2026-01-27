@@ -1,0 +1,64 @@
+syntax = "proto3";
+
+package orders;
+
+option csharp_namespace = "Orders.ProcessingService.Contracts";
+
+import "google/protobuf/wrappers.proto";
+
+service OrderService {
+  rpc ApproveOrder(ApproveOrderRequest) returns (ApproveOrderResponse);
+  rpc StartOrderPacking(StartOrderPackingRequest) returns (StartOrderPackingResponse);
+  rpc FinishOrderPacking(FinishOrderPackingRequest) returns (FinishOrderPackingResponse);
+  rpc StartOrderDelivery(StartOrderDeliveryRequest) returns (StartOrderDeliveryResponse);
+  rpc FinishOrderDelivery(FinishOrderDeliveryRequest) returns (FinishOrderDeliveryResponse);
+}
+
+
+message ApproveOrderRequest {
+  int64 order_id = 1;
+  bool is_approved = 2;
+  string approved_by = 3;
+  google.protobuf.StringValue failure_reason = 4;
+}
+
+message ApproveOrderResponse {
+}
+
+
+message StartOrderPackingRequest {
+  int64 order_id = 1;
+  string packing_by = 2;
+}
+
+message StartOrderPackingResponse {
+}
+
+
+message FinishOrderPackingRequest {
+  int64 order_id = 1;
+  bool is_successful = 2;
+  google.protobuf.StringValue failure_reason = 3;
+}
+
+message FinishOrderPackingResponse {
+}
+
+
+message StartOrderDeliveryRequest {
+  int64 order_id = 1;
+  string delivered_by = 2;
+}
+
+message StartOrderDeliveryResponse {
+}
+
+
+message FinishOrderDeliveryRequest {
+  int64 order_id = 1;
+  bool is_successful = 2;
+  google.protobuf.StringValue failure_reason = 3;
+}
+
+message FinishOrderDeliveryResponse {
+}

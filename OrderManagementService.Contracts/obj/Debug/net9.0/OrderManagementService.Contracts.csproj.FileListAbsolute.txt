@@ -1,0 +1,12 @@
+/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService.Contracts/obj/Debug/net9.0/OrderManagementService.Contracts.csproj.AssemblyReference.cache
+/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService.Contracts/obj/Debug/net9.0/OrderManagementService.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService.Contracts/bin/Debug/net9.0/OrderManagementService.Contracts.deps.json
+/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService.Contracts/bin/Debug/net9.0/OrderManagementService.Contracts.dll
+/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService.Contracts/bin/Debug/net9.0/OrderManagementService.Contracts.pdb
+/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService.Contracts/obj/Debug/net9.0/OrderManagementService.Contracts.AssemblyInfoInputs.cache
+/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService.Contracts/obj/Debug/net9.0/OrderManagementService.Contracts.AssemblyInfo.cs
+/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService.Contracts/obj/Debug/net9.0/OrderManagementService.Contracts.csproj.CoreCompileInputs.cache
+/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService.Contracts/obj/Debug/net9.0/OrderManagementService.Contracts.dll
+/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService.Contracts/obj/Debug/net9.0/refint/OrderManagementService.Contracts.dll
+/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService.Contracts/obj/Debug/net9.0/OrderManagementService.Contracts.pdb
+/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService.Contracts/obj/Debug/net9.0/ref/OrderManagementService.Contracts.dll

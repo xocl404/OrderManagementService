@@ -1,0 +1,15 @@
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain/bin/Debug/net9.0/OrderManagementService.Domain.deps.json
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain/bin/Debug/net9.0/OrderManagementService.Domain.dll
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain/bin/Debug/net9.0/OrderManagementService.Domain.pdb
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain/bin/Debug/net9.0/OrderManagementService.Domain.Models.dll
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain/bin/Debug/net9.0/OrderManagementService.Domain.Models.pdb
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain/obj/Debug/net9.0/OrderManagementService.Domain.csproj.AssemblyReference.cache
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain/obj/Debug/net9.0/OrderManagementService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain/obj/Debug/net9.0/OrderManagementService.Domain.AssemblyInfoInputs.cache
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain/obj/Debug/net9.0/OrderManagementService.Domain.AssemblyInfo.cs
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain/obj/Debug/net9.0/OrderManagementService.Domain.csproj.CoreCompileInputs.cache
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain/obj/Debug/net9.0/OrderMan.24301BB1.Up2Date
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain/obj/Debug/net9.0/OrderManagementService.Domain.dll
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain/obj/Debug/net9.0/refint/OrderManagementService.Domain.dll
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain/obj/Debug/net9.0/OrderManagementService.Domain.pdb
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain/obj/Debug/net9.0/ref/OrderManagementService.Domain.dll

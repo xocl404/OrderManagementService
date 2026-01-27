@@ -1,0 +1,857 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService/OrderManagementService.csproj": {}
+  },
+  "projects": {
+    "/Users/aroslavsidakin/Desktop/OrderManagementService/Application/OrderManagementService.Application.Abstractions/OrderManagementService.Application.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aroslavsidakin/Desktop/OrderManagementService/Application/OrderManagementService.Application.Abstractions/OrderManagementService.Application.Abstractions.csproj",
+        "projectName": "OrderManagementService.Application.Abstractions",
+        "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Application/OrderManagementService.Application.Abstractions/OrderManagementService.Application.Abstractions.csproj",
+        "packagesPath": "/Users/aroslavsidakin/.nuget/packages/",
+        "outputPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Application/OrderManagementService.Application.Abstractions/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aroslavsidakin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aroslavsidakin/Desktop/OrderManagementService/Application/OrderManagementService.Application/OrderManagementService.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aroslavsidakin/Desktop/OrderManagementService/Application/OrderManagementService.Application/OrderManagementService.Application.csproj",
+        "projectName": "OrderManagementService.Application",
+        "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Application/OrderManagementService.Application/OrderManagementService.Application.csproj",
+        "packagesPath": "/Users/aroslavsidakin/.nuget/packages/",
+        "outputPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Application/OrderManagementService.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aroslavsidakin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/aroslavsidakin/Desktop/OrderManagementService/Application/OrderManagementService.Application.Abstractions/OrderManagementService.Application.Abstractions.csproj": {
+                "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Application/OrderManagementService.Application.Abstractions/OrderManagementService.Application.Abstractions.csproj"
+              },
+              "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/OrderManagementService.Domain.Abstractions.csproj": {
+                "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/OrderManagementService.Domain.Abstractions.csproj"
+              },
+              "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Models/OrderManagementService.Domain.Models.csproj": {
+                "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Models/OrderManagementService.Domain.Models.csproj"
+              },
+              "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain/OrderManagementService.Domain.csproj": {
+                "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain/OrderManagementService.Domain.csproj"
+              },
+              "/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.Kafka/OrderManagementService.Infrastructure.Kafka.csproj": {
+                "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.Kafka/OrderManagementService.Infrastructure.Kafka.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.34.0-rc1, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.76.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/OrderManagementService.Domain.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/OrderManagementService.Domain.Abstractions.csproj",
+        "projectName": "OrderManagementService.Domain.Abstractions",
+        "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/OrderManagementService.Domain.Abstractions.csproj",
+        "packagesPath": "/Users/aroslavsidakin/.nuget/packages/",
+        "outputPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aroslavsidakin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Models/OrderManagementService.Domain.Models.csproj": {
+                "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Models/OrderManagementService.Domain.Models.csproj"
+              },
+              "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain/OrderManagementService.Domain.csproj": {
+                "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain/OrderManagementService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Models/OrderManagementService.Domain.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Models/OrderManagementService.Domain.Models.csproj",
+        "projectName": "OrderManagementService.Domain.Models",
+        "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Models/OrderManagementService.Domain.Models.csproj",
+        "packagesPath": "/Users/aroslavsidakin/.nuget/packages/",
+        "outputPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aroslavsidakin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain/OrderManagementService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain/OrderManagementService.Domain.csproj",
+        "projectName": "OrderManagementService.Domain",
+        "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain/OrderManagementService.Domain.csproj",
+        "packagesPath": "/Users/aroslavsidakin/.nuget/packages/",
+        "outputPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aroslavsidakin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Models/OrderManagementService.Domain.Models.csproj": {
+                "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Models/OrderManagementService.Domain.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.DataAccess/OrderManagementService.Infrastructure.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.DataAccess/OrderManagementService.Infrastructure.DataAccess.csproj",
+        "projectName": "OrderManagementService.Infrastructure.DataAccess",
+        "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.DataAccess/OrderManagementService.Infrastructure.DataAccess.csproj",
+        "packagesPath": "/Users/aroslavsidakin/.nuget/packages/",
+        "outputPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aroslavsidakin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/aroslavsidakin/Desktop/OrderManagementService/Application/OrderManagementService.Application.Abstractions/OrderManagementService.Application.Abstractions.csproj": {
+                "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Application/OrderManagementService.Application.Abstractions/OrderManagementService.Application.Abstractions.csproj"
+              },
+              "/Users/aroslavsidakin/Desktop/OrderManagementService/Application/OrderManagementService.Application/OrderManagementService.Application.csproj": {
+                "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Application/OrderManagementService.Application/OrderManagementService.Application.csproj"
+              },
+              "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/OrderManagementService.Domain.Abstractions.csproj": {
+                "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/OrderManagementService.Domain.Abstractions.csproj"
+              },
+              "/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.Kafka/OrderManagementService.Infrastructure.Kafka.csproj": {
+                "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.Kafka/OrderManagementService.Infrastructure.Kafka.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "FluentMigrator": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "FluentMigrator.Runner": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.Kafka/OrderManagementService.Infrastructure.Kafka.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.Kafka/OrderManagementService.Infrastructure.Kafka.csproj",
+        "projectName": "OrderManagementService.Infrastructure.Kafka",
+        "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.Kafka/OrderManagementService.Infrastructure.Kafka.csproj",
+        "packagesPath": "/Users/aroslavsidakin/.nuget/packages/",
+        "outputPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.Kafka/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aroslavsidakin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/aroslavsidakin/Desktop/OrderManagementService/Application/OrderManagementService.Application.Abstractions/OrderManagementService.Application.Abstractions.csproj": {
+                "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Application/OrderManagementService.Application.Abstractions/OrderManagementService.Application.Abstractions.csproj"
+              },
+              "/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService.Contracts/OrderManagementService.Contracts.csproj": {
+                "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService.Contracts/OrderManagementService.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.13.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService.Contracts/OrderManagementService.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService.Contracts/OrderManagementService.Contracts.csproj",
+        "projectName": "OrderManagementService.Contracts",
+        "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService.Contracts/OrderManagementService.Contracts.csproj",
+        "packagesPath": "/Users/aroslavsidakin/.nuget/packages/",
+        "outputPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aroslavsidakin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.34.0-rc1, )"
+            },
+            "Grpc.Core.Api": {
+              "target": "Package",
+              "version": "[2.76.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.76.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService/OrderManagementService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService/OrderManagementService.csproj",
+        "projectName": "OrderManagementService",
+        "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService/OrderManagementService.csproj",
+        "packagesPath": "/Users/aroslavsidakin/.nuget/packages/",
+        "outputPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aroslavsidakin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.DataAccess/OrderManagementService.Infrastructure.DataAccess.csproj": {
+                "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.DataAccess/OrderManagementService.Infrastructure.DataAccess.csproj"
+              },
+              "/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.Kafka/OrderManagementService.Infrastructure.Kafka.csproj": {
+                "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.Kafka/OrderManagementService.Infrastructure.Kafka.csproj"
+              },
+              "/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService.Contracts/OrderManagementService.Contracts.csproj": {
+                "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService.Contracts/OrderManagementService.Contracts.csproj"
+              },
+              "/Users/aroslavsidakin/Desktop/OrderManagementService/Presentation/OrderManagementService.Presentation.Grpc/OrderManagementService.Presentation.Grpc.csproj": {
+                "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Presentation/OrderManagementService.Presentation.Grpc/OrderManagementService.Presentation.Grpc.csproj"
+              },
+              "/Users/aroslavsidakin/Desktop/OrderManagementService/Presentation/OrderManagementService.Presentation.HttpGateway/OrderManagementService.Presentation.HttpGateway.csproj": {
+                "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Presentation/OrderManagementService.Presentation.HttpGateway/OrderManagementService.Presentation.HttpGateway.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aroslavsidakin/Desktop/OrderManagementService/Presentation/OrderManagementService.Presentation.Grpc/OrderManagementService.Presentation.Grpc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aroslavsidakin/Desktop/OrderManagementService/Presentation/OrderManagementService.Presentation.Grpc/OrderManagementService.Presentation.Grpc.csproj",
+        "projectName": "OrderManagementService.Presentation.Grpc",
+        "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Presentation/OrderManagementService.Presentation.Grpc/OrderManagementService.Presentation.Grpc.csproj",
+        "packagesPath": "/Users/aroslavsidakin/.nuget/packages/",
+        "outputPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Presentation/OrderManagementService.Presentation.Grpc/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aroslavsidakin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/OrderManagementService.Domain.Abstractions.csproj": {
+                "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/OrderManagementService.Domain.Abstractions.csproj"
+              },
+              "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Models/OrderManagementService.Domain.Models.csproj": {
+                "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Models/OrderManagementService.Domain.Models.csproj"
+              },
+              "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain/OrderManagementService.Domain.csproj": {
+                "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain/OrderManagementService.Domain.csproj"
+              },
+              "/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.DataAccess/OrderManagementService.Infrastructure.DataAccess.csproj": {
+                "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.DataAccess/OrderManagementService.Infrastructure.DataAccess.csproj"
+              },
+              "/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService.Contracts/OrderManagementService.Contracts.csproj": {
+                "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService.Contracts/OrderManagementService.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.76.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aroslavsidakin/Desktop/OrderManagementService/Presentation/OrderManagementService.Presentation.HttpGateway/OrderManagementService.Presentation.HttpGateway.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aroslavsidakin/Desktop/OrderManagementService/Presentation/OrderManagementService.Presentation.HttpGateway/OrderManagementService.Presentation.HttpGateway.csproj",
+        "projectName": "OrderManagementService.Presentation.HttpGateway",
+        "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Presentation/OrderManagementService.Presentation.HttpGateway/OrderManagementService.Presentation.HttpGateway.csproj",
+        "packagesPath": "/Users/aroslavsidakin/.nuget/packages/",
+        "outputPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Presentation/OrderManagementService.Presentation.HttpGateway/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aroslavsidakin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService.Contracts/OrderManagementService.Contracts.csproj": {
+                "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/OrderManagementService.Contracts/OrderManagementService.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.76.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[10.1.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[10.1.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[10.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

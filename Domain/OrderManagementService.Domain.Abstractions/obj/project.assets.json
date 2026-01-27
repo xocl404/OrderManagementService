@@ -1,0 +1,117 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "OrderManagementService.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "OrderManagementService.Domain.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OrderManagementService.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderManagementService.Domain.dll": {}
+        }
+      },
+      "OrderManagementService.Domain.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/OrderManagementService.Domain.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderManagementService.Domain.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OrderManagementService.Domain/1.0.0": {
+      "type": "project",
+      "path": "../OrderManagementService.Domain/OrderManagementService.Domain.csproj",
+      "msbuildProject": "../OrderManagementService.Domain/OrderManagementService.Domain.csproj"
+    },
+    "OrderManagementService.Domain.Models/1.0.0": {
+      "type": "project",
+      "path": "../OrderManagementService.Domain.Models/OrderManagementService.Domain.Models.csproj",
+      "msbuildProject": "../OrderManagementService.Domain.Models/OrderManagementService.Domain.Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "OrderManagementService.Domain >= 1.0.0",
+      "OrderManagementService.Domain.Models >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/aroslavsidakin/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/OrderManagementService.Domain.Abstractions.csproj",
+      "projectName": "OrderManagementService.Domain.Abstractions",
+      "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/OrderManagementService.Domain.Abstractions.csproj",
+      "packagesPath": "/Users/aroslavsidakin/.nuget/packages/",
+      "outputPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Abstractions/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/aroslavsidakin/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Models/OrderManagementService.Domain.Models.csproj": {
+              "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Models/OrderManagementService.Domain.Models.csproj"
+            },
+            "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain/OrderManagementService.Domain.csproj": {
+              "projectPath": "/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain/OrderManagementService.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

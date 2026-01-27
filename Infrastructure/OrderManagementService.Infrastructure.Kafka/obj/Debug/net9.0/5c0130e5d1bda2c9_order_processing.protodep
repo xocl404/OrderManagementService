@@ -1,0 +1,3 @@
+obj/Debug/net9.0/OrderProcessing.cs: /Users/aroslavsidakin/.nuget/packages/grpc.tools/2.76.0/build/native/include/google/protobuf/timestamp.proto\
+ /Users/aroslavsidakin/.nuget/packages/grpc.tools/2.76.0/build/native/include/google/protobuf/wrappers.proto\
+ ../../Presentation/OrderManagementService.Presentation.Grpc/Protos/order_processing.proto

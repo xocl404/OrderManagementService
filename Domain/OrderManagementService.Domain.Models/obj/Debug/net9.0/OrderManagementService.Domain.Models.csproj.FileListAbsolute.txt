@@ -1,0 +1,11 @@
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Models/bin/Debug/net9.0/OrderManagementService.Domain.Models.deps.json
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Models/bin/Debug/net9.0/OrderManagementService.Domain.Models.dll
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Models/bin/Debug/net9.0/OrderManagementService.Domain.Models.pdb
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Models/obj/Debug/net9.0/OrderManagementService.Domain.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Models/obj/Debug/net9.0/OrderManagementService.Domain.Models.AssemblyInfoInputs.cache
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Models/obj/Debug/net9.0/OrderManagementService.Domain.Models.AssemblyInfo.cs
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Models/obj/Debug/net9.0/OrderManagementService.Domain.Models.csproj.CoreCompileInputs.cache
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Models/obj/Debug/net9.0/OrderManagementService.Domain.Models.dll
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Models/obj/Debug/net9.0/refint/OrderManagementService.Domain.Models.dll
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Models/obj/Debug/net9.0/OrderManagementService.Domain.Models.pdb
+/Users/aroslavsidakin/Desktop/OrderManagementService/Domain/OrderManagementService.Domain.Models/obj/Debug/net9.0/ref/OrderManagementService.Domain.Models.dll

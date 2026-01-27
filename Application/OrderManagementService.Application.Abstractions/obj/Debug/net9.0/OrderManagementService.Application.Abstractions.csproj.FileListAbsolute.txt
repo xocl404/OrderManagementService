@@ -1,0 +1,11 @@
+/Users/aroslavsidakin/Desktop/OrderManagementService/Application/OrderManagementService.Application.Abstractions/bin/Debug/net9.0/OrderManagementService.Application.Abstractions.deps.json
+/Users/aroslavsidakin/Desktop/OrderManagementService/Application/OrderManagementService.Application.Abstractions/bin/Debug/net9.0/OrderManagementService.Application.Abstractions.dll
+/Users/aroslavsidakin/Desktop/OrderManagementService/Application/OrderManagementService.Application.Abstractions/bin/Debug/net9.0/OrderManagementService.Application.Abstractions.pdb
+/Users/aroslavsidakin/Desktop/OrderManagementService/Application/OrderManagementService.Application.Abstractions/obj/Debug/net9.0/OrderManagementService.Application.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aroslavsidakin/Desktop/OrderManagementService/Application/OrderManagementService.Application.Abstractions/obj/Debug/net9.0/OrderManagementService.Application.Abstractions.AssemblyInfoInputs.cache
+/Users/aroslavsidakin/Desktop/OrderManagementService/Application/OrderManagementService.Application.Abstractions/obj/Debug/net9.0/OrderManagementService.Application.Abstractions.AssemblyInfo.cs
+/Users/aroslavsidakin/Desktop/OrderManagementService/Application/OrderManagementService.Application.Abstractions/obj/Debug/net9.0/OrderManagementService.Application.Abstractions.csproj.CoreCompileInputs.cache
+/Users/aroslavsidakin/Desktop/OrderManagementService/Application/OrderManagementService.Application.Abstractions/obj/Debug/net9.0/OrderManagementService.Application.Abstractions.dll
+/Users/aroslavsidakin/Desktop/OrderManagementService/Application/OrderManagementService.Application.Abstractions/obj/Debug/net9.0/refint/OrderManagementService.Application.Abstractions.dll
+/Users/aroslavsidakin/Desktop/OrderManagementService/Application/OrderManagementService.Application.Abstractions/obj/Debug/net9.0/OrderManagementService.Application.Abstractions.pdb
+/Users/aroslavsidakin/Desktop/OrderManagementService/Application/OrderManagementService.Application.Abstractions/obj/Debug/net9.0/ref/OrderManagementService.Application.Abstractions.dll

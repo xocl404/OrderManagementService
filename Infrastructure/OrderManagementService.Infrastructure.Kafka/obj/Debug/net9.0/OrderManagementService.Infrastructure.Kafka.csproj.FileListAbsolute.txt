@@ -1,0 +1,17 @@
+/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.Kafka/bin/Debug/net9.0/OrderManagementService.Infrastructure.Kafka.deps.json
+/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.Kafka/bin/Debug/net9.0/OrderManagementService.Infrastructure.Kafka.dll
+/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.Kafka/bin/Debug/net9.0/OrderManagementService.Infrastructure.Kafka.pdb
+/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.Kafka/bin/Debug/net9.0/OrderManagementService.Application.Abstractions.dll
+/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.Kafka/bin/Debug/net9.0/OrderManagementService.Application.Abstractions.pdb
+/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.Kafka/obj/Debug/net9.0/OrderManagementService.Infrastructure.Kafka.csproj.AssemblyReference.cache
+/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.Kafka/obj/Debug/net9.0/OrderManagementService.Infrastructure.Kafka.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.Kafka/obj/Debug/net9.0/OrderManagementService.Infrastructure.Kafka.AssemblyInfoInputs.cache
+/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.Kafka/obj/Debug/net9.0/OrderManagementService.Infrastructure.Kafka.AssemblyInfo.cs
+/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.Kafka/obj/Debug/net9.0/OrderManagementService.Infrastructure.Kafka.csproj.CoreCompileInputs.cache
+/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.Kafka/obj/Debug/net9.0/OrderMan.3FDEEB2B.Up2Date
+/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.Kafka/obj/Debug/net9.0/OrderManagementService.Infrastructure.Kafka.dll
+/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.Kafka/obj/Debug/net9.0/refint/OrderManagementService.Infrastructure.Kafka.dll
+/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.Kafka/obj/Debug/net9.0/OrderManagementService.Infrastructure.Kafka.pdb
+/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.Kafka/obj/Debug/net9.0/ref/OrderManagementService.Infrastructure.Kafka.dll
+/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.Kafka/bin/Debug/net9.0/OrderManagementService.Contracts.dll
+/Users/aroslavsidakin/Desktop/OrderManagementService/Infrastructure/OrderManagementService.Infrastructure.Kafka/bin/Debug/net9.0/OrderManagementService.Contracts.pdb
