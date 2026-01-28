@@ -4,11 +4,6 @@
 
 Npgsql, Postgres, serialization, ASP.NET, hosted service, HTTP, gRPC, Реактивное межсервисное взаимодействие, Kafka
 
-## Задача
-
-- Реализовать сервис товаров с gRPC API и HTTP гейтвей к нему.
-- Сервис товаров должен иметь гексагональную архитектуру.
-
 ## Задание 1
 
 Реализовать репозитории, миграцию и сервис для предоставленной [схемы данных](lab-3-task-1.sql).
@@ -58,11 +53,11 @@ Npgsql, Postgres, serialization, ASP.NET, hosted service, HTTP, gRPC, Реакт
 
 - Реализовать Presentation слой с использованием gRPC.
 
-## Функциональные требования
+### Функциональные требования
 
 - Presentation слой должен предоставлять весь функционал, реализуемый сервисом заказов
 
-## Нефункциональные требования
+### Нефункциональные требования
 
 - конфигурация клиента должна происходить через Options
 - модели gRPC API, подразумевающие полиморфизм, должны быть реализованы через `oneof`
@@ -75,7 +70,7 @@ Npgsql, Postgres, serialization, ASP.NET, hosted service, HTTP, gRPC, Реакт
 
 Реализовать HTTP гейтвей (отдельный сервис) над gRPC сервисом.
 
-## Нефункциональные требования
+### Нефункциональные требования
 
 - HTTP гейтвей должен иметь Swagger документацию, аннотированную возможными возвращаемыми кодами
 - модели, подразумевающие полиморфизм, в API HTTP гейтвея должны быть реализованы **НЕ** в виде `oneof`, а с использованием наследования
@@ -94,38 +89,7 @@ Npgsql, Postgres, serialization, ASP.NET, hosted service, HTTP, gRPC, Реакт
 - начать читать топик `order_processing`
 - добавить эндпоинты сервиса обработки заказа на гейтвей
 
-Для развертывания сервиса используйте
-файл [docker-compose.yaml](https://github.com/is-csms-y27/lab-4-tools/blob/master/docker-compose.yaml), он запускает
-контейнер сервиса, его базу, kafka, а также kafka-ui, который вы можете использовать для просмотра сообщений в топиках и
-отладки.
-
-Для подключения к kafka вы должны использовать адрес `localhost:9092` если запускаете сервис не в docker контейнере.
-Если вы запускаете свой сервис в docker контейнере, то вы должны добавить к нему нетворк
-`order-processing-service-network` и использовать адрес `kafka:9094`.
-
-Обратите внимание, что в данном файле, для конфигурации proto контрактов в kafka-ui используется путь относительный в
-репозитории самого сервиса. Вам будет необходимо изменить этот путь на корректный для вашего репозитория.
-
-```yaml
-kafka-ui:
-  # ...
-  volumes:
-    - ./src/Presentation/Lab5.Tools.Presentation.Kafka/protos:/schemas # change path to your local proto directory, ex: `src/lab-5/Kafka/protos:/schemas`
-  # ...
-```
-
-### Контракты
-
-Схема топика
-`order_creation` – [order_creation.proto](https://github.com/is-csms-y27/lab-4-tools/blob/master/src/Presentation/Lab5.Tools.Presentation.Kafka/protos/order_creation.proto)
-
-Схема топика
-`order_processing` – [order_processing.proto](https://github.com/is-csms-y27/lab-4-tools/blob/master/src/Presentation/Lab5.Tools.Presentation.Kafka/protos/order_processing.proto)
-
-Контракты сервиса обработки
-заказов – [orders.proto](https://github.com/is-csms-y27/lab-4-tools/blob/master/src/Presentation/Lab5.Tools.Presentation.Grpc/protos/orders.proto)
-
-## Функциональные требования
+### Функциональные требования
 
 - Ваш сервис должен читать топик `order_processing` и корректно обрабатывать его события
     - события, подразумевающие неудачный исход, при этом неудачном исходе должны переводить заказ в статус отменён в
@@ -151,7 +115,7 @@ kafka-ui:
 
 \* Данные операции сервиса обработки заказов могут завершиться неуспешно, ваш сервис должен уметь это обрабатывать.
 
-## Нефункциональные требования
+### Нефункциональные требования
 
 - Вы должны реализовать общие абстракции для записи в топики и чтения из них
     - для producer вы должны выделить интерфейс и реализовать его
